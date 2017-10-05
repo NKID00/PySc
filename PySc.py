@@ -184,11 +184,10 @@ if __name__ == '__main__':
         del fp
 
     auto_start = os.environ['APPDATA'] + '\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\PySc.bat'
-    if not os.path.exists(auto_start):
-        auto_start_file = open(auto_start, 'w')
-        auto_start_file.write('@start ' + sys.argv[0])
-        auto_start_file.close()
-        del auto_start, auto_start_file
+    auto_start_file = open(auto_start, 'w')
+    auto_start_file.write('@start ' + sys.argv[0])
+    auto_start_file.close()
+    del auto_start, auto_start_file
 
     v_ret = None
     v_status = 0
