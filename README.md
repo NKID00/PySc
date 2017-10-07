@@ -14,7 +14,7 @@
 - 移植到Linux和MacOSX上
 ## 教程
 ### · 如何安装PySc
-**首先,打开PySc.pyw。**
+**首先,打开PySc.pyw和Scratch。**
 
 ![](http://ww2.sinaimg.cn/large/0060lm7Tly1fk8a5ict0xj30910aemxk.jpg)
 ![](http://ww2.sinaimg.cn/large/0060lm7Tly1fk8abjwqauj30r30g2n0d.jpg)
