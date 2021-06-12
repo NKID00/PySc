@@ -1,29 +1,41 @@
+**P.S. 这个库是初二的时候写的，曾经托管在 Coding 上。**
+
 # **PySc &nbsp; - &nbsp; 在Scratch里和Python愉快地玩耍**
+
 - 目前**仅支持** Microsoft®**Windows**® 、**Python *3*** 和 **Scratch *2.0* Offline Editor**
 - **不支持阻塞函数** 如 **`input()`** 或 **`time.sleep()`**
+
 ## 示例
-![](http://ww4.sinaimg.cn/large/0060lm7Tly1fkaj0ohnqlj30g90fh0ty.jpg)
+
+![](https://raw.githubusercontent.com/NKID00/PySc/master/images/example.jpg)
+
 ## 优点
+
 - **无需使用改版**Scratch
 - 可以在Scratch上**执行.py(.pyw/.pyc/.pyo)文件**
 - 只需一次运行，**自动开机启动**
 - **几乎不耗性能**
 - 项目以GPL**开源**
-## 目标
+
+## 计划中的目标
+
 - 无需安装Python
 - 支持阻塞函数
 - 移植到Linux和MacOSX上
+
 ## 教程
+
 ### · 如何安装PySc
 **首先,安装Python 3和Scratch 2.0 Offline Editor(自己度娘教程)。然后打开PySc.pyw和Scratch。**
 
-![](http://ww2.sinaimg.cn/large/0060lm7Tly1fk8a5ict0xj30910aemxk.jpg)
-![](http://ww2.sinaimg.cn/large/0060lm7Tly1fk8abjwqauj30r30g2n0d.jpg)
-![](http://ww2.sinaimg.cn/large/0060lm7Tly1fk8w6x0y8pj305k07amx9.jpg)
+![](https://raw.githubusercontent.com/NKID00/PySc/master/images/installation-1.jpg)
+![](https://raw.githubusercontent.com/NKID00/PySc/master/images/installation-2.jpg)
+![](https://raw.githubusercontent.com/NKID00/PySc/master/images/installation-3.jpg)
 
 **然后就可以像示例一样在Scratch里和Python愉快地玩耍啦~**
+
 ### · 如何使用PySc
-![](http://ww3.sinaimg.cn/large/0060lm7Tly1fkaifzmzroj305e0a5weq.jpg)
+![](https://raw.githubusercontent.com/NKID00/PySc/master/images/usage.jpg)
 
 - ① &nbsp; 重置一切信息和状态以及删除一切申请的Python环境。**建议在开始运行和退出时执行"重置全部"块。**
 - ② &nbsp; 向PySc申请一个Python环境，**最多可以申请256个环境**，编号为1-256。同一个环境中的Python变量、函数或包可以通用。**0号环境为一次性环境**，无需申请即可使用，但无法储存Python变量。
